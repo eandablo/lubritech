@@ -152,3 +152,64 @@ header>div {
     margin: 0 20px 10px 20px;
     text-align: justify;
 }
+
+/* applications section */
+
+#applications-section {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.three-column-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80%;
+
+}
+
+#applications-left {
+    background: url('../images/drill.webp') center center / cover no-repeat;
+    border-radius: 3%;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto 0 auto;
+}
+
+#applications-center {
+    background: url('../images/protein_gels.webp') center center / cover no-repeat;
+    border-radius: 3%;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto 0 auto;
+}
+
+#applications-right {
+    background: url('../images/surface.webp') center center / cover no-repeat;
+    border-radius: 3%;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto 0 auto;
+}
+
+#applications-section>h2 {
+    margin: 50px auto 30px auto;
+}
+
+#applications-section h3 {
+    margin: 0 auto 5px auto;
+}
+
+
+#applications-section a {
+    color: #1b1b1b;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+#applications-link {
+    width: 200px;
+}
