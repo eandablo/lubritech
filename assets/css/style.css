@@ -299,7 +299,7 @@ footer p {
 }
 
 #app-page-center-mech {
-    background: url('../images/cogwheel.webp') center center / cover no-repeat;
+    background: url( '../images/cogwheel.webp') center center / cover no-repeat;
     border-radius: 3%;
     width: 90%;
     height: 90%;
