@@ -213,3 +213,28 @@ header>div {
 #applications-link {
     width: 200px;
 }
+
+/* testimony section */
+
+#testimony-section {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+#testimony-section>h2 {
+    margin: 50px auto 30px auto;
+}
+
+#testimony-section h3 {
+    margin: 0 auto 5px auto;
+}
+
+#testimony-section h4 {
+    margin: 5px auto 20px auto;
+}
+
+#testimony-section .three-column-container div {
+    border-style: outset;
+    padding: 10px;
+}
