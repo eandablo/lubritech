@@ -121,7 +121,7 @@ header>div {
     text-align: center;
 }
 
-#mission-section>h2 {
+#mission-section > h2 {
     margin: 50px auto 40px auto;
 }
 
@@ -195,7 +195,7 @@ header>div {
     margin: 0 auto 0 auto;
 }
 
-#applications-section>h2 {
+#applications-section > h2 {
     margin: 50px auto 30px auto;
 }
 
@@ -222,7 +222,7 @@ header>div {
     text-align: center;
 }
 
-#testimony-section>h2 {
+#testimony-section > h2 {
     margin: 50px auto 30px auto;
 }
 
@@ -237,4 +237,49 @@ header>div {
 #testimony-section .three-column-container div {
     border-style: outset;
     padding: 10px;
+}
+
+/* footer area */
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: #1b1b1b;
+    margin-top: 20px;
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+
+#footer-contact-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 50%;
+    margin: 0 auto 0 auto;
+
+}
+
+footer h4 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    font-size: 200%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer li {
+    display: inline;
+}
+
+footer p {
+    color: #fff;
+}
+
+#socials {
+    text-align: center;
 }
