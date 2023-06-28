@@ -34,6 +34,37 @@
         </div>
     </header>
 
+    <h2>Contact us for more information on our services</h2>
+    <!-- query form-->
+    <form action="https://formdump.codeinstitute.net" method="post">
+        <fieldset>
+            <legend>Details</legend>
+            <label for="fname">Full Name</label>
+            <input id="fname" name="full-name" type="text" required />
+            <label for="jtitle">Job Title</label>
+            <input id="jtitle" name="job-title" type="text" required />
+            <label for="comp">Company</label>
+            <input id="comp" name="company" type="text" required />
+            <label for="saddress">Street Address</label>
+            <input id="saddress" name="street-address" type="text" required />
+            <label for="city">City</label>
+            <input id="city" name="city" type="text" required />
+            <label for="email">Email</label>
+            <input id="email" name="email-address" type="email" required />
+            <label for="product">Choose an application</label>
+            <select id="product" name="product-interest"  required>
+                <option value="temperature-performance">Temperature performance</option>
+                <option value="biocompatibility-Food">Biocompatibility (Food)</option>
+                <option value="biocompatibility-Food">Biocompatibility (Cosmetics)</option>
+                <option value="surface-coating">Surface Coating</option>
+            </select>
+            <label for="info">How can we help you</label>
+            <textarea id="info" name="information" placeholder="Please tell us about your needs" rows="20" cols="60"
+                required></textarea>
+        </fieldset>
+        <input id="submit-button" type="submit" value="Submit Query" />
+    </form>
+
     <!-- footer containing adress and links to socials -->
     <footer>
         <div id="footer-contact-container">

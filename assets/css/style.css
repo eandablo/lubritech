@@ -349,3 +349,20 @@ footer p {
     margin: 0 20px 10px 20px;
     text-align: justify;
 }
+
+/* queries page */
+
+/* Queries page */
+
+form fieldset {
+    border: 1px solid #1b1b1b;
+    width: 50%;
+    margin: 10px auto 10px auto;
+    height: 400px;
+}
+
+form input,
+form select,
+form textarea {
+    border: 1px solid #1b1b1b;
+}
