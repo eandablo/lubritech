@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Signika:wght@300&display=swap');
+
+/* All blocks with zero box model */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Default paragraph and headings styling */
+p {
+    font-family: Signika, Georgia, sans-serif;
+    font-size: 110%;
+    color: #1b1b1b;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto Slab', Georgia, sans-serif;
+    font-size: 150%;
+    color: #1b1b1b;
+}
+
+h3,
+h4 {
+    font-family: 'Roboto Slab', Georgia, sans-serif;
+    font-size: 120%;
+    color: #1b1b1b;
+}
+
+/* header styling as sticky */
+header {
+    position: sticky;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header>div {
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+}
+
+/*Styling the logo*/
+#logo {
+    font-family: 'Roboto Slab', Georgia, sans-serif;
+    text-decoration: none;
+    font-weight: 150%;
+    font-size: 150%;
+    float: left;
+}
+
+#logo h1 {
+    margin: 10px 0 0px 15px;
+}
+
+/* Styling the main navegation menu */
+
+
+#main-menu {
+    text-align: right;
+    float: right;
+}
+
+#main-menu ul {
+    list-style-type: none;
+
+}
+
+#main-menu li {
+    margin-right: 20px;
+    display: inline;
+    font-family: Signika, Georgia, sans-serif;
+}
+
+#main-menu a {
+    text-decoration: none;
+    font-size: 120%;
+    line-height: 70px;
+    color: #1b1b1b;
+}
+
+.current-page {
+    border: 2px solid #000000;
+    padding: 3px;
+}
+
+#hero-image-section {
+    clear: both;
+    width: 100%;
+    height: 70vh;
+    background: url('../images/hero-image.webp') center center/ 100% 100% no-repeat;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+#hero-image-section div {
+    position: absolute;
+    color: #fff;
+    top: 50px;
+    width: 800px;
+    height: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#hero-image-section>div>h2 {
+    color: #fff;
+}
