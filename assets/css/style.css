@@ -407,11 +407,13 @@ button{
     font-family: Signika, Georgia, sans-serif;
 }
 
-
-
-
 button:hover {
 
     background-color: #3300ff;
     color: #fff;
+}
+
+#footer-dummy {
+    position : absolute;
+    bottom: 0;
 }
