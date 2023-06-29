@@ -243,7 +243,7 @@ header>div {
 
 footer {
     width: 100%;
-    height: 250px;
+    height: 200px;
     background-color: #1b1b1b;
     margin-top: 20px;
     padding: 30px 0 30px 0;
@@ -256,7 +256,7 @@ footer {
     justify-content: space-evenly;
     width: 90%;
     height: 50%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 20px auto;
 
 }
 
@@ -281,6 +281,7 @@ footer p {
 }
 
 #socials {
+
     text-align: center;
 }
 
