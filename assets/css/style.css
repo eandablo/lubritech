@@ -370,9 +370,9 @@ footer p {
 
 fieldset {
     border: 1px solid #1b1b1b;
-    width: 400px;
+    width: 350px;
     margin: 10px auto 10px auto;
-    height: 840px;
+    height: 890px;
     text-align: left;
     border-radius: 5px;
 }
@@ -396,7 +396,9 @@ label {
 input,
 select {
     width: 70%;
+    height: 25px;
     margin: 10px 0 10px 20px;
+    padding: 3px;
 }
 
 textarea {
@@ -417,7 +419,6 @@ button {
 }
 
 button:hover {
-
     background-color: #3300ff;
     color: #fff;
 }
@@ -446,6 +447,8 @@ button:hover {
         text-align: center;
         margin-bottom: 20px;
     }
+
+
 }
 
 /* tablets */
@@ -453,18 +456,63 @@ button:hover {
 @media screen and (max-width:950px) {
     .three-column-container {
         display: grid;
-        grid-template-columns: 40%;
-        grid-template-rows: 30% 30% 30%;
+        grid-template-columns: 50%;
+        grid-template-rows: 33% 33% 33%;
         justify-content: space-evenly;
         width: 100%;
-        height: 100%;
+        height: 90%;
 
     }
 
     #applications-section {
         width: 100%;
-        height: 1000px;
+        height: 1200px;
         text-align: center;
         margin-bottom: 20px;
     }
+
+    #applications-left {
+        background: url('../images/drill.webp') center center / cover no-repeat;
+        border-radius: 3%;
+        width: 90%;
+        height: 90%;
+        margin: 0 auto 0 auto;
+    }
+
+    #applications-center {
+        background: url('../images/protein_gels.webp') center center / cover no-repeat;
+        border-radius: 3%;
+        width: 90%;
+        height: 90%;
+        margin: 0 auto 0 auto;
+    }
+
+    #applications-right {
+        background: url('../images/surface.webp') center center / cover no-repeat;
+        border-radius: 3%;
+        width: 90%;
+        height: 90%;
+        margin: 0 auto 0 auto;
+    }
+
+    #testimony-section {
+        width: 100%;
+        height: 1000px;
+        text-align: center;
+    }
+
+    #app-page-mech {
+        width: 100%;
+        height: 1200px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #app-page-bio {
+        width: 100%;
+        height: 1200px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
 }
