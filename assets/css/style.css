@@ -366,7 +366,7 @@ fieldset {
     border: 1px solid #1b1b1b;
     width: 400px;
     margin: 10px auto 10px auto;
-    height: 830px;
+    height: 840px;
     text-align: left;
     border-radius: 5px;
 }
@@ -395,6 +395,7 @@ textarea {
     left:20px;
     top:10px;
     resize: none;
+    padding: 5px;
 }
 
 button{
