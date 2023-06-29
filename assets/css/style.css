@@ -350,19 +350,67 @@ footer p {
     text-align: justify;
 }
 
-/* queries page */
-
 /* Queries page */
 
-form fieldset {
-    border: 1px solid #1b1b1b;
-    width: 50%;
-    margin: 10px auto 10px auto;
-    height: 400px;
+#form-section {
+    text-align: center;
+    clear: both;
 }
 
-form input,
-form select,
-form textarea {
+#form-section h2 {
+    position : relative;
+
+}   
+
+fieldset {
     border: 1px solid #1b1b1b;
+    width: 400px;
+    margin: 10px auto 10px auto;
+    height: 830px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+legend {
+    margin-left: 20px;
+}
+
+input, select, textarea {
+    border: 1px solid #1b1b1b;
+}
+
+label {
+    margin:10px 0 10px 20px;
+    width: 100%;
+    font-family: Signika, Georgia, sans-serif;
+}
+
+input , select {
+    width:70%;
+    margin: 10px 0 10px 20px;
+}
+
+textarea {
+    position:relative;
+    left:20px;
+    top:10px;
+    resize: none;
+}
+
+button{
+    width: 70px;
+    height : 30px;
+    margin: 20px 0 10px 20px;
+    background-color: #1b1b1b;
+    color : #fff;
+    font-family: Signika, Georgia, sans-serif;
+}
+
+
+
+
+button:hover {
+
+    background-color: #3300ff;
+    color: #fff;
 }
