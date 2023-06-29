@@ -14,13 +14,15 @@ p {
     color: #1b1b1b;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Roboto Slab', Georgia, sans-serif;
     font-size: 150%;
     color: #1b1b1b;
 }
 
-h3, h4 {
+h3,
+h4 {
     font-family: 'Roboto Slab', Georgia, sans-serif;
     font-size: 120%;
     color: #1b1b1b;
@@ -109,7 +111,7 @@ header>div {
     text-align: center;
 }
 
-#hero-image-section > div > h2 {
+#hero-image-section>div>h2 {
     color: #fff;
 }
 
@@ -121,7 +123,7 @@ header>div {
     text-align: center;
 }
 
-#mission-section > h2 {
+#mission-section>h2 {
     margin: 50px auto 40px auto;
 }
 
@@ -195,7 +197,7 @@ header>div {
     margin: 0 auto 0 auto;
 }
 
-#applications-section > h2 {
+#applications-section>h2 {
     margin: 50px auto 30px auto;
 }
 
@@ -222,7 +224,7 @@ header>div {
     text-align: center;
 }
 
-#testimony-section > h2 {
+#testimony-section>h2 {
     margin: 50px auto 30px auto;
 }
 
@@ -300,11 +302,11 @@ footer p {
 }
 
 #app-page-center-mech {
-    background: url( '../images/cogwheel.webp') center center / cover no-repeat;
+    background: url('../images/cogwheel.webp') center center / cover no-repeat;
     border-radius: 3%;
     width: 90%;
     height: 90%;
-    margin: 0 auto  0 auto;
+    margin: 0 auto 0 auto;
 }
 
 /* applications page biocompatible section */
@@ -338,15 +340,18 @@ footer p {
     margin: 0 auto 0 auto;
 }
 
-#app-page-mech>h2, #app-page-bio>h2 {
+#app-page-mech>h2,
+#app-page-bio>h2 {
     margin: 50px auto 30px auto;
 }
 
-#app-page-mech h3, #app-page-bio h3 {
+#app-page-mech h3,
+#app-page-bio h3 {
     margin: 0 auto 5px auto;
 }
 
-#app-page-mech p, #app-page-bio p {
+#app-page-mech p,
+#app-page-bio p {
     margin: 0 20px 10px 20px;
     text-align: justify;
 }
@@ -359,9 +364,9 @@ footer p {
 }
 
 #form-section h2 {
-    position : relative;
+    position: relative;
 
-}   
+}
 
 fieldset {
     border: 1px solid #1b1b1b;
@@ -376,35 +381,38 @@ legend {
     margin-left: 20px;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     border: 1px solid #1b1b1b;
 }
 
 label {
-    margin:10px 0 10px 20px;
+    margin: 10px 0 10px 20px;
     width: 100%;
     font-family: Signika, Georgia, sans-serif;
 }
 
-input , select {
-    width:70%;
+input,
+select {
+    width: 70%;
     margin: 10px 0 10px 20px;
 }
 
 textarea {
-    position:relative;
-    left:20px;
-    top:10px;
+    position: relative;
+    left: 20px;
+    top: 10px;
     resize: none;
     padding: 5px;
 }
 
-button{
+button {
     width: 70px;
-    height : 30px;
+    height: 30px;
     margin: 20px 0 10px 20px;
     background-color: #1b1b1b;
-    color : #fff;
+    color: #fff;
     font-family: Signika, Georgia, sans-serif;
 }
 
@@ -415,6 +423,48 @@ button:hover {
 }
 
 #footer-dummy {
-    position : absolute;
+    position: absolute;
     bottom: 0;
+}
+
+
+/* responsive commands */
+
+@media screen and (max-width:1200px) {
+    .three-column-container {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 70%;
+
+    }
+
+    #applications-section {
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* tablets */
+
+@media screen and (max-width:950px) {
+    .three-column-container {
+        display: grid;
+        grid-template-columns: 40%;
+        grid-template-rows: 30% 30% 30%;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #applications-section {
+        width: 100%;
+        height: 1000px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
