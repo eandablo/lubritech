@@ -137,8 +137,8 @@ header>div {
     border-radius: 20px;
     border-style: outset;
     margin: 0 auto 0 auto;
-    width: 410px;
-    height: 410px;
+    width: 355px;
+    height: 355px;
     padding: 5px;
 }
 
@@ -171,20 +171,25 @@ header>div {
 
 #applications-left {
     background: url('../images/drill.webp') center center / cover no-repeat;
+    width: 300px;
+    height: 300px;
 }
 
 #applications-center {
     background: url('../images/protein_gels.webp') center center / cover no-repeat;
+    width: 300px;
+    height: 300px;
 }
 
 #applications-right {
     background: url('../images/surface.webp') center center / cover no-repeat;
+    width: 300px;
+    height: 300px;
 }
 
 .three-column-container-size {
     border-radius: 3%;
     width: 90%;
-    height: 80%;
     margin: 0 auto 0 auto;
 }
 
@@ -289,8 +294,8 @@ footer p {
 
 #app-page-center-mech {
     background: url('../images/cogwheel.webp') center center / cover no-repeat;
-    width:300px;
-    height:300px;
+    width: 300px;
+    height: 300px;
 }
 
 /* applications page biocompatible section */
@@ -304,16 +309,16 @@ footer p {
 
 #app-page-left-bio {
     background: url('../images/food.webp') center center / cover no-repeat;
-        width: 300px;
-            height: 300px;
+    width: 300px;
+    height: 300px;
 }
 
 
 
 #app-page-right-bio {
     background: url('../images/soap.webp') center center / cover no-repeat;
-        width: 300px;
-            height: 300px;
+    width: 300px;
+    height: 300px;
 }
 
 #app-page-mech>h2,
@@ -407,44 +412,26 @@ button:hover {
 
 /* responsive commands */
 
-@media screen and (max-width:1200px) {
-    .three-column-container {
-        display: grid;
-        grid-template-columns: 30% 30% 30%;
-        justify-content: space-evenly;
-        width: 100%;
-        height: 70%;
-
-    }
-
-    #applications-section {
-        width: 100%;
-        height: 400px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-}
-
 /* tablets */
 
 @media screen and (max-width:950px) {
     #hero-image-section div {
         color: #fff;
-        width: 400px;
+        width: 300px;
         margin: 50px auto 0 auto;
         text-align: center;
     }
 
     #mission-section {
         width: 100%;
-        height: 1050px;
+        height: 1000px;
         text-align: center;
     }
 
     #mission-container {
         display: grid;
         grid-template-columns: 450px;
-        grid-template-rows: 500px 410px;
+        grid-template-rows: 500px 350px;
         justify-content: space-evenly;
     }
 
@@ -500,7 +487,7 @@ button:hover {
 
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:660px) {
     footer {
         width: 100%;
         height: 500px;
