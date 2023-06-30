@@ -175,22 +175,17 @@ header>div {
 
 #applications-left {
     background: url('../images/drill.webp') center center / cover no-repeat;
-    border-radius: 3%;
-    width: 90%;
-    height: 80%;
-    margin: 0 auto 0 auto;
 }
 
 #applications-center {
     background: url('../images/protein_gels.webp') center center / cover no-repeat;
-    border-radius: 3%;
-    width: 90%;
-    height: 80%;
-    margin: 0 auto 0 auto;
 }
 
 #applications-right {
     background: url('../images/surface.webp') center center / cover no-repeat;
+}
+
+.three-column-container-size {
     border-radius: 3%;
     width: 90%;
     height: 80%;
@@ -296,17 +291,8 @@ footer p {
     margin-bottom: 20px;
 }
 
-#app-page-left-mech {
-    width: 90%;
-    margin: 0 auto 0 auto;
-}
-
 #app-page-center-mech {
     background: url('../images/cogwheel.webp') center center / cover no-repeat;
-    border-radius: 3%;
-    width: 90%;
-    height: 90%;
-    margin: 0 auto 0 auto;
 }
 
 /* applications page biocompatible section */
@@ -320,24 +306,14 @@ footer p {
 
 #app-page-left-bio {
     background: url('../images/food.webp') center center / cover no-repeat;
-    border-radius: 3%;
-    width: 90%;
-    height: 90%;
-    margin: 0 auto 0 auto;
+
 }
 
-#app-page-center-bio {
 
-    width: 90%;
-    margin: 0 auto 0 auto;
-}
 
 #app-page-right-bio {
     background: url('../images/soap.webp') center center / cover no-repeat;
-    border-radius: 3%;
-    width: 90%;
-    height: 90%;
-    margin: 0 auto 0 auto;
+
 }
 
 #app-page-mech>h2,
@@ -456,7 +432,7 @@ button:hover {
 @media screen and (max-width:950px) {
     .three-column-container {
         display: grid;
-        grid-template-columns: 50%;
+        grid-template-columns: 100%;
         grid-template-rows: 33% 33% 33%;
         justify-content: space-evenly;
         width: 100%;
@@ -471,26 +447,9 @@ button:hover {
         margin-bottom: 20px;
     }
 
-    #applications-left {
-        background: url('../images/drill.webp') center center / cover no-repeat;
+    .three-column-container-size {
         border-radius: 3%;
-        width: 90%;
-        height: 90%;
-        margin: 0 auto 0 auto;
-    }
-
-    #applications-center {
-        background: url('../images/protein_gels.webp') center center / cover no-repeat;
-        border-radius: 3%;
-        width: 90%;
-        height: 90%;
-        margin: 0 auto 0 auto;
-    }
-
-    #applications-right {
-        background: url('../images/surface.webp') center center / cover no-repeat;
-        border-radius: 3%;
-        width: 90%;
+        width: 350px;
         height: 90%;
         margin: 0 auto 0 auto;
     }
@@ -499,6 +458,13 @@ button:hover {
         width: 100%;
         height: 1000px;
         text-align: center;
+    }
+
+    #testimony-section .three-column-container div {
+        border-style: outset;
+        padding: 10px;
+        width:400px;
+        margin:10px auto 10px auto;
     }
 
     #app-page-mech {
