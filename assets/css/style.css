@@ -289,6 +289,8 @@ footer p {
 
 #app-page-center-mech {
     background: url('../images/cogwheel.webp') center center / cover no-repeat;
+    width:300px;
+    height:300px;
 }
 
 /* applications page biocompatible section */
@@ -302,12 +304,16 @@ footer p {
 
 #app-page-left-bio {
     background: url('../images/food.webp') center center / cover no-repeat;
+        width: 300px;
+            height: 300px;
 }
 
 
 
 #app-page-right-bio {
     background: url('../images/soap.webp') center center / cover no-repeat;
+        width: 300px;
+            height: 300px;
 }
 
 #app-page-mech>h2,
