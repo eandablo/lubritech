@@ -139,10 +139,8 @@ header>div {
 }
 
 #mission-right {
-    background: url('../images/mission-photo.webp') center center / cover no-repeat;
-    border-radius: 3%;
-    width: 100%;
-    height: 100%;
+    border-radius: 5px;
+    border-style: outset;
     margin: 0 auto 0 auto;
 }
 
@@ -306,14 +304,12 @@ footer p {
 
 #app-page-left-bio {
     background: url('../images/food.webp') center center / cover no-repeat;
-
 }
 
 
 
 #app-page-right-bio {
     background: url('../images/soap.webp') center center / cover no-repeat;
-
 }
 
 #app-page-mech>h2,
