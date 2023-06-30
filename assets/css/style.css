@@ -193,7 +193,7 @@ header>div {
 }
 
 #applications-section h3 {
-    margin: 0 auto 5px auto;
+    margin: 0 auto 10px auto;
 }
 
 
@@ -463,8 +463,8 @@ button:hover {
     .three-column-container-size {
         border-radius: 3%;
         width: 350px;
-        height: 90%;
-        margin: 0 auto 0 auto;
+        height: 85%;
+        margin: 0 auto 10px auto;
     }
 
     #testimony-section {
