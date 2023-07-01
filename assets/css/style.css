@@ -194,7 +194,7 @@ header>div {
 
 .three-column-container-size {
     border-radius: 3%;
-    width: 90%;
+    width: 100%;
     margin: 0 auto 0 auto;
 }
 
@@ -285,7 +285,6 @@ footer p {
 }
 
 #socials {
-
     text-align: center;
 }
 
@@ -301,7 +300,7 @@ footer p {
 #app-page-center-mech {
     background: url('../images/cogwheel.webp') center center / cover no-repeat;
     width: 300px;
-    height: 300px;
+    height: 280px;
 }
 
 /* applications page biocompatible section */
@@ -480,10 +479,16 @@ button:hover {
 
     #app-page-mech {
         width: 100%;
-        height: 1000px;
+        height: 850px;
         text-align: center;
         margin-bottom: 20px;
     }
+
+    #app-page-mech>div>div{
+        height: 200px;
+
+    }
+
 
     #app-page-bio {
         width: 100%;
