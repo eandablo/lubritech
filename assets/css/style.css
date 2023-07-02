@@ -48,7 +48,6 @@ header>div {
 
 #logo {
     font-family: 'Roboto Slab', Georgia, sans-serif;
-
     font-weight: 150%;
     font-size: 150%;
     float: left;
@@ -72,7 +71,6 @@ header>div {
 
 #main-menu ul {
     list-style-type: none;
-
 }
 
 #main-menu li {
@@ -355,9 +353,9 @@ footer p {
 
 fieldset {
     border: 2px solid #1b1b1b;
-    width: 330px;
+    width: 670px;
     margin: 10px auto 10px auto;
-    height: 890px;
+    height: 500px;
     text-align: left;
     border-radius: 5px;
 }
@@ -365,6 +363,12 @@ fieldset {
 legend {
     margin-left: 20px;
 }
+
+#form-container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
 
 input,
 select,

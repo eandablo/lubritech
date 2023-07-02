@@ -41,45 +41,50 @@
                 <legend>
                     <h3>Query details</h3>
                 </legend>
+                <div id="form-container">
+                    <div>
+                        <label for="fname">Full Name</label>
+                        <br>
+                        <input id="fname" name="full-name" type="text" required />
+                        <br>
+                        <label for="jtitle">Job Title</label>
+                        <br>
+                        <input id="jtitle" name="job-title" type="text" required />
+                        <br>
+                        <label for="comp">Company</label>
+                        <br>
+                        <input id="comp" name="company" type="text" required />
+                        <br>
+                        <label for="saddress">Street Address</label>
+                        <br>
+                        <input id="saddress" name="street-address" type="text" required />
+                        <br>
+                        <label for="city">City</label>
+                        <br>
+                        <input id="city" name="city" type="text" required />
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <br>
+                        <input id="email" name="email-address" type="email" required />
+                        <br>
+                        <label for="product">Choose an application</label>
+                        <br>
+                        <select id="product" name="product-interest" required>
+                            <option value="temperature-performance">Temperature performance</option>
+                            <option value="antiwear">Anti-wear protection</option>
+                            <option value="biocompatibility-Food">Biocompatibility-Food</option>
+                            <option value="biocompatibility-Food">Biocompatibility-Cosmetics</option>
+                            <option value="surface-coating">Surface Coating</option>
+                        </select>
+                        <br>
+                        <label for="info">Please let us now how we can help you</label>
+                        <br>
+                        <textarea id="info" name="information" placeholder="Please tell us about your needs" rows="12"
+                            cols="36" required></textarea>
+                    </div>
+                </div>
                 <br>
-                <label for="fname">Full Name</label>
-                <br>
-                <input id="fname" name="full-name" type="text" required />
-                <br>
-                <label for="jtitle">Job Title</label>
-                <br>
-                <input id="jtitle" name="job-title" type="text" required />
-                <br>
-                <label for="comp">Company</label>
-                <br>
-                <input id="comp" name="company" type="text" required />
-                <br>
-                <label for="saddress">Street Address</label>
-                <br>
-                <input id="saddress" name="street-address" type="text" required />
-                <br>
-                <label for="city">City</label>
-                <br>
-                <input id="city" name="city" type="text" required />
-                <br>
-                <label for="email">Email</label>
-                <br>
-                <input id="email" name="email-address" type="email" required />
-                <br>
-                <label for="product">Choose an application</label>
-                <br>
-                <select id="product" name="product-interest" required>
-                    <option value="temperature-performance">Temperature performance</option>
-                    <option value="antiwear">Anti-wear protection</option>
-                    <option value="biocompatibility-Food">Biocompatibility-Food</option>
-                    <option value="biocompatibility-Food">Biocompatibility-Cosmetics</option>
-                    <option value="surface-coating">Surface Coating</option>
-                </select>
-                <br>
-                <label for="info">Please let us now how we can help you</label>
-                <br>
-                <textarea id="info" name="information" placeholder="Please tell us about your needs" rows="15" cols="36"
-                    required></textarea>
                 <button type="submit">Submit</button>
             </fieldset>
 
