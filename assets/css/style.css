@@ -128,7 +128,7 @@ header>div {
     display: grid;
     grid-template-columns: 560px 320px;
     justify-content: space-evenly;
-    height:430px;
+    height: 430px;
 }
 
 #mission-left {
@@ -319,7 +319,9 @@ footer p {
     height: 300px;
 }
 
-
+#app-page-center-bio{
+    padding:20px;
+}
 
 #app-page-right-bio {
     background: url('../images/soap.webp') center center / cover no-repeat;
@@ -405,6 +407,8 @@ textarea {
     top: 10px;
     resize: none;
     padding: 5px;
+    width: 280px;
+    height: 180px;
 }
 
 button {
@@ -441,13 +445,13 @@ button:hover {
 
     #mission-section {
         width: 330;
-        height: 1080px;
+        height: 1140px;
     }
 
     #mission-container {
         grid-template-columns: 320px;
         grid-template-rows: 580px 310px;
-        height:980px;
+        height: 980px;
     }
 
     .three-column-container {
@@ -509,8 +513,8 @@ button:hover {
 
     /* Queries page */
     fieldset {
-        height:870px;
-        width:330px;
+        height: 870px;
+        width: 330px;
     }
 
     #form-container {
