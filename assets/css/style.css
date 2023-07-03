@@ -116,7 +116,7 @@ header>div {
 
 #mission-section {
     width: 100%;
-    height: 500px;
+    height: 540px;
     text-align: center;
 }
 
@@ -128,6 +128,7 @@ header>div {
     display: grid;
     grid-template-columns: 560px 320px;
     justify-content: space-evenly;
+    height:430px;
 }
 
 #mission-left {
@@ -152,6 +153,12 @@ header>div {
 #mission-section p {
     margin: 0 20px 10px 20px;
     text-align: justify;
+}
+
+#mission-section a {
+    color: #1b1b1b;
+    text-decoration: none;
+    font-size: 150%;
 }
 
 /* applications section */
@@ -209,10 +216,6 @@ header>div {
     color: #1b1b1b;
     text-decoration: none;
     font-size: 150%;
-}
-
-#applications-link {
-    width: 200px;
 }
 
 /* testimony section */
@@ -354,7 +357,7 @@ footer p {
 fieldset {
     border: 2px solid #1b1b1b;
     width: 670px;
-    margin: 10px auto 10px auto;
+    margin: 10px auto 40px auto;
     height: 500px;
     text-align: left;
     border-radius: 5px;
@@ -364,8 +367,8 @@ legend {
     margin-left: 20px;
 }
 
-#form-container{
-    display:grid;
+#form-container {
+    display: grid;
     grid-template-columns: 50% 50%;
 }
 
@@ -438,14 +441,13 @@ button:hover {
 
     #mission-section {
         width: 330;
-        height: 1050px;
+        height: 1080px;
     }
 
     #mission-container {
-        display: grid;
         grid-template-columns: 320px;
         grid-template-rows: 580px 310px;
-        justify-content: space-evenly;
+        height:980px;
     }
 
     .three-column-container {
@@ -498,12 +500,23 @@ button:hover {
 
     }
 
-
     #app-page-bio {
         width: 100%;
         height: 1050px;
         text-align: center;
         margin-bottom: 20px;
+    }
+
+    /* Queries page */
+    fieldset {
+        height:870px;
+        width:330px;
+    }
+
+    #form-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 400px 350px;
     }
 
 }
