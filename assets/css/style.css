@@ -319,8 +319,8 @@ footer p {
     height: 300px;
 }
 
-#app-page-center-bio{
-    padding:20px;
+#app-page-center-bio {
+    padding: 20px;
 }
 
 #app-page-right-bio {
@@ -363,6 +363,7 @@ fieldset {
     height: 500px;
     text-align: left;
     border-radius: 5px;
+    padding-top: 20px;
 }
 
 legend {
@@ -373,7 +374,6 @@ legend {
     display: grid;
     grid-template-columns: 50% 50%;
 }
-
 
 input,
 select,
@@ -423,6 +423,13 @@ button {
 button:hover {
     background-color: #3300ff;
     color: #fff;
+}
+
+#query-message {
+    width: 95%;
+    height: 150px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 #footer-dummy {
@@ -520,7 +527,7 @@ button:hover {
     #form-container {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 400px 350px;
+        grid-template-rows: 380px 350px;
     }
 
 }
@@ -574,5 +581,9 @@ button:hover {
         height: 70%;
         margin: 0 auto 40px auto;
 
+    }
+
+    #footer-dummy {
+        position: static;
     }
 }
