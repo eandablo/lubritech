@@ -21,6 +21,7 @@ The applications page keeps the header and hero image from the home page. This k
 
 ## Queries page
 
-
-
+This page keeps only the header from the home and applications pages for consistency.
+The queries page is designed to allow users to ask for information about their especific problem and provide all the informatio needed for the company to contact them back. 
+The footer is also kept identical to the home and applications pages for consistency.
 ![contact-wf](assets/images/contact-wf.png)
