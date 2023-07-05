@@ -16,8 +16,11 @@ The header contains the simple logo of the company and links to the three differ
 
 ## Applications page
 
+The applications page keeps the header and hero image from the home page. This keeps users focus on the company professional aim. The applications is then divided into two sections presenting two very different aims. The first, mechanically demanding applications and second, biocompatible applications. These two completely different industriy examples will allow users to understand the flexibility of the company to provide solutions to opposite extreme sectors. The footer is kept from the home page.
 ![applications-wf](assets/images/applications-wf.png)
 
 ## Queries page
+
+
 
 ![contact-wf](assets/images/contact-wf.png)
