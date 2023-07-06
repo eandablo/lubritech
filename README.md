@@ -1,11 +1,18 @@
 # About TRIBOPLEX
 
-TRIBOPLEX is a website desgined to promote a fictitous company which offers bespoke solutions for industry facing tribological problems. The scope of TRIBOPLEX covers a different variety of industries from food to high demanding mechanical applications, which makes it unique. In order to properly convey to BB2 users the capacity of TRIBOPLEX to offers cost effective solutions the website contains three webpages: Home, applications and queries. Characteristics of each page will be presented in detail below.
-The website is responsive down to screen of 350 px wide.
+TRIBOPLEX is a website desgined to promote a fictitous company which offers bespoke solutions for industry facing tribological problems. The scope of TRIBOPLEX covers a different variety of industries from food to high demanding mechanical applications, which makes it unique. 
+In order to convince BB2 users that TRIBOPLEX is the best option to find a solution, the webpage must convey the following: 
+- Knowledge of subject
+- Resources
+- Quality
+- Experience
+- Easy to contact
 
-The last update to this file was: **May 11th, 2023**
+In order to properly convey the message to BB2 users the capacity of TRIBOPLEX to offers cost effective solutions the website contains three webpages: Home, applications and queries. Characteristics of each page will be presented in detail below.
+The website is responsive down to screens with 350px wide.
 
-## Website structure
+
+## Website skeleton
 
 Wireframes were designed using Balsamiq.
 
@@ -25,3 +32,8 @@ This page keeps only the header from the home and applications pages for consist
 The queries page is designed to allow users to ask for information about their especific problem and provide all the informatio needed for the company to contact them back. 
 The footer is also kept identical to the home and applications pages for consistency.
 ![contact-wf](assets/images/contact-wf.png)
+
+## Website surface
+
+### Homepage
+

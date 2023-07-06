@@ -48,7 +48,6 @@ header>div {
 
 #logo {
     font-family: 'Roboto Slab', Georgia, sans-serif;
-    font-weight: 150%;
     font-size: 150%;
     float: left;
 }
@@ -451,7 +450,6 @@ button:hover {
     /* index page */
 
     #mission-section {
-        width: 330;
         height: 1140px;
     }
 
