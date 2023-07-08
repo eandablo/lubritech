@@ -1,4 +1,12 @@
-# About TRIBOPLEX
+# Table of content
+1. [Introduction](#introduction)
+2. [Website skeleton](#website-skeleton)
+3. [Website surface](#website-surface)
+4. [Technology](#technology)
+5. [Credits](#credits)
+
+
+# Introduction
 
 TRIBOPLEX is a website desgined to promote a fictitous company which offers bespoke solutions for industry facing tribological problems. The scope of TRIBOPLEX covers a different variety of industries from food to high demanding mechanical applications, which makes it unique. 
 In order to convince BB2 users that TRIBOPLEX is the best option to find a solution, the webpage must convey the following: 
@@ -11,8 +19,7 @@ In order to convince BB2 users that TRIBOPLEX is the best option to find a solut
 In order to properly convey the message to BB2 users the capacity of TRIBOPLEX to offers cost effective solutions the website contains three webpages: Home, applications and queries. Characteristics of each page will be presented in detail below.
 The website is responsive down to screens with 350px wide.
 
-
-## Website skeleton
+# Website skeleton
 
 Wireframes were designed using Balsamiq.
 
@@ -33,20 +40,25 @@ The queries page is designed to allow users to ask for information about their e
 The footer is also kept identical to the home and applications pages for consistency.
 ![contact-wf](assets/images/contact-wf.png)
 
-## Website surface
+# Website surface
 
-The font Robot Slab was chosen for headers level from 1 to 4 and all paragraphs were given the font Signika. Besides their professional look this fonts allow easy readibility. 
+The font Robot Slab was chosen for headers level from 1 to 4 and all paragraphs were given the font Signika. Besides their professional look this fonts allow easy readibility. The contrast between font color (#1b1b1b) and background (white) was chosen to ensure readability and professional look.
+
+![contrast-grid](assets/images/contrast-grid.png)
 
 ### Homepage
 
 The header contains the Logo of TRIBOPLEX and the main navigation menu floated at left and right, respectively. The header was given the property of sticky enhencing accesibility to other pages of the website at any point.
 The hero image conveys the basic idea of lubrication and sets the mission of the TRIBOPLEX.
+The text inside the hero image was colored in white since this allows a great contrast with the dark theme of the image.
 
 ![header](assets/images/readme-header.png)
 
-The mission of TRIBOPLEX is explain in the section with header "meeting your lubrication needs". This section intends to explain the users the advantages of using the services of TRIBOPLEX and how different this company maybe from the competitors if compared.
+The mission of TRIBOPLEX is explained in the section with header "meeting your lubrication needs". This section intends to explain the users the advantages of using the services of TRIBOPLEX and how different this company maybe from the competitors if compared. A video is provided to give additional information to non-experts users about the differences in lubricants. The video was obtained from the channel Engineering Materials-Tribology-Design.
 
 ![mission-section](assets/images/readme-mission.png)
+
+The applications section visually illustrates the variety of problems TRIBOPLEX is able to tackle, namely, large mechanical friction, biological lubrication and surface coating. This simple is section and invites the user in learn more in the application page providing as well a direct link.
 
 ![applications-section](assets/images/readme-applications.png)
 
