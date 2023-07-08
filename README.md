@@ -39,9 +39,12 @@ The font Robot Slab was chosen for headers level from 1 to 4 and all paragraphs 
 
 ### Homepage
 
-The header contains the Logo of TRIBOPLEX and the main navigation menu floated at left and right, respectively. The header ws given the property of sticky enhencing accesibility to other pages of the website at any point.
+The header contains the Logo of TRIBOPLEX and the main navigation menu floated at left and right, respectively. The header was given the property of sticky enhencing accesibility to other pages of the website at any point.
+The hero image conveys the basic idea of lubrication and sets the mission of the TRIBOPLEX.
 
 ![header](assets/images/readme-header.png)
+
+The mission of TRIBOPLEX is explain in the section with header "meeting your lubrication needs". This section intends to explain the users the advantages of using the services of TRIBOPLEX and how different this company maybe from the competitors if compared.
 
 ![mission-section](assets/images/readme-mission.png)
 
