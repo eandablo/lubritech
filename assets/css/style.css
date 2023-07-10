@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 /* Default paragraph and headings styling */
@@ -175,7 +176,6 @@ header>div {
     justify-content: space-evenly;
     width: 100%;
     height: 400px;
-
 }
 
 #applications-left {
@@ -209,7 +209,6 @@ header>div {
 #applications-section h3 {
     margin: 0 auto 10px auto;
 }
-
 
 #applications-section a {
     color: #1b1b1b;
@@ -247,7 +246,7 @@ header>div {
 
 footer {
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-color: #1b1b1b;
     margin-top: 20px;
     padding: 30px 0 30px 0;
@@ -256,12 +255,11 @@ footer {
 
 #footer-contact-container {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 33% 33% 33%;
     justify-content: space-evenly;
     width: 90%;
-    height: 50%;
-    margin: 0 auto 40px auto;
-
+    height: 160px;
+    margin: 0 auto 0 auto;
 }
 
 footer h4 {
@@ -285,6 +283,8 @@ footer p {
 }
 
 #socials {
+    width: 100%;
+    height: 100px;
     text-align: center;
 }
 
@@ -408,7 +408,7 @@ textarea {
     top: 10px;
     resize: none;
     padding: 5px;
-    width: 280px;
+    width: 290px;
     height: 180px;
 }
 
@@ -441,8 +441,6 @@ button:hover {
 
 /* responsive commands */
 
-/* tablets */
-
 @media screen and (max-width:950px) {
 
     #hero-image-section div {
@@ -459,22 +457,20 @@ button:hover {
         grid-template-columns: 320px;
         grid-template-rows: 580px 310px;
         height: 980px;
+        padding: 0;
     }
 
     .three-column-container {
-        display: grid;
         grid-template-columns: 350px;
         grid-template-rows: 33% 33% 33%;
-        justify-content: space-evenly;
         width: 100%;
         height: 90%;
+        padding: 0;
     }
 
     #applications-section {
         width: 100%;
         height: 1200px;
-        text-align: center;
-        margin-bottom: 20px;
     }
 
     .three-column-container-size {
@@ -482,6 +478,7 @@ button:hover {
         width: 310px;
         height: 85%;
         margin: 0 auto 10px auto;
+        padding: 0;
     }
 
     #testimony-section {
@@ -508,7 +505,6 @@ button:hover {
 
     #app-page-mech>div>div {
         height: 200px;
-
     }
 
     #app-page-bio {
@@ -518,16 +514,20 @@ button:hover {
         margin-bottom: 20px;
     }
 
+    #app-page-center-bio {
+        padding: 0;
+    }
+
     /* Queries page */
     fieldset {
-        height: 870px;
+        height: 800px;
         width: 330px;
     }
 
     #form-container {
         display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 380px 350px;
+        grid-template-columns: 95%;
+        grid-template-rows: 330px 330px;
     }
 
 }
@@ -568,19 +568,23 @@ button:hover {
         height: 480px;
         background-color: #1b1b1b;
         margin-top: 20px;
-        padding: 30px 0 30px 0;
+        padding: 30px 0 0 0;
         text-align: center;
     }
 
     #footer-contact-container {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 40% 30% 30%;
+        grid-template-rows: 140px 100px 100px;
         justify-content: space-evenly;
         width: 90%;
-        height: 70%;
-        margin: 0 auto 40px auto;
+        height: 300px;
+        padding: 0;
+    }
 
+    #socials {
+        padding: 40px 0 0 0;
+        height: 140px;
     }
 
     #footer-dummy {
