@@ -52,7 +52,7 @@ The font Robot Slab was chosen for headers level from 1 to 4 and all paragraphs 
 
 The header contains the Logo of TRIBOPLEX and the main navigation menu floated at left and right, respectively. The header was given the property of sticky enhencing accesibility to other pages of the website at any point.
 The hero image conveys the basic idea of lubrication and sets the mission of the TRIBOPLEX.
-The text inside the hero image was colored in white since this allows a great contrast with the dark theme of the image.
+The text inside the hero image was colored in white since this allows a great contrast with the dark theme of the image without the need of a background banner.
 
 ![header](assets/images/readme-header.png)
 
@@ -70,7 +70,33 @@ In order to ensure users of the reliability of the solutions provided by TRIBOPL
 
 Opposite to the website elements presented above, the footer has a dark background (#1b1b1b) and white font color. The footer contains a first row with three columns giving contact information: address, email and landline. At the bottom, link for socials (facebook, instagram and twitter) are also provided.  
 
-![testimonials-section](assets/images/readme-footer.png)
+![footer](assets/images/readme-footer.png)
+
+### Applications page
+
+The applications page keeps the header and hero image from the home page. The only change is the text in the hero image that remarks the intention of this page, telling the users the many ways TRIBOPLEX ca help.
+
+![applications-hero](assets/images/readme-app-hero.png)
+
+The first section is dedicated to highlu demanding mechaical applications which is divided in three columns. Righ and left columns give a brief description of the quelities desirable for lubricant working under these conditions. The central image of a gear box help the user to focus immediately in the context of the section.
+
+![applications-mechanics](assets/images/readme-app-mech.png)
+
+The second section is dedicated to biological applications also with three columns. In this case, left and right abouts show images with simple examples of food and cosmetic industries helping the user to focus on the section subject. The text is concise explaining why lubrication is an important consideration in both applications.
+As ca be observed below the section, the footer remains the same as in the home page for consistency.
+
+![applications-biologial](assets/images/readme-app-bio.png)
+
+### Queries page
+
+The queries page provides the space for the user to send request for information and contact easily the TRIBOPLEX team. The form is divided in two columns still following an industry standard order for the fields. On hovering the border of the fields become blue and on focus the background turns to a pinkish color wich in combination with the dark font color allows a contrast compliant with industry standards as evident on the 8.7 score in the contrast grid (https://contrast-grid-eightshapes.com).
+
+![queries-form](assets/images/readme-queries.png)
+
+The form does not use any method and on clicking on the submit button it references to a dummy page having the same structure but just showing an acknoledgement message as shown in the image below.
+
+![queries-form-dummy](assets/images/readme-dummy.png)
+
 
 ## Technology
 
