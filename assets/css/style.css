@@ -481,17 +481,18 @@ button:hover {
         padding: 0;
     }
 
+    /* testimony section index page */
+
     #testimony-section {
         width: 100%;
         height: 1000px;
     }
 
     #testimony-section .three-column-container div {
-        border-style: outset;
         padding: 10px;
         width: 310px;
         margin: 10px auto 10px auto;
-        height: 250px;
+        height: 270px;
     }
 
     /* Applications page */
