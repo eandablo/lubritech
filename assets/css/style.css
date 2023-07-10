@@ -504,7 +504,7 @@ button:hover {
 
     #app-page-mech>div>div {
         height: 200px;
-        padding:0;
+        padding: 0;
     }
 
     #app-page-bio {
@@ -522,12 +522,13 @@ button:hover {
     fieldset {
         height: 800px;
         width: 330px;
+        padding: 20px 0 0 0;
     }
 
     #form-container {
-        display: grid;
         grid-template-columns: 95%;
         grid-template-rows: 330px 330px;
+        padding: 0;
     }
 
 }
