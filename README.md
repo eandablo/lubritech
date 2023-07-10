@@ -44,7 +44,7 @@ The footer is also kept identical to the home and applications pages for consist
 
 # Website surface
 
-The font Robot Slab was chosen for headers level from 1 to 4 and all paragraphs were given the font Signika. Besides their professional look this fonts allow easy readibility. The contrast between font color (#1b1b1b) and background (white) was chosen to ensure readability and professional look.
+The font Robot Slab was chosen for headers level from 1 to 4 and all paragraphs were given the font Signika. Besides their professional look this fonts allow easy readibility. The contrast between font color (#1b1b1b) and background (white) was chosen to ensure compliance with the WCAG 2.0 minimum contrast and allowing also a professional look scoring a value of 17.2 in the contrast grid (https://contrast-grid-eightshapes.com).
 
 ![contrast-grid](assets/images/contrast-grid.png)
 
@@ -79,9 +79,9 @@ Opposite to the website elements presented above, the footer has a dark backgrou
 - Code was validated online in https://www.w3.org/
 
 ## Credits
-
+- Triboplex website was created and design by Efren A Andablo Reyes.
 - Special acknowkedge to my mentor Dario Carrasquel for his guidence.
 - Youtube video presented in meeting your needs section belongs to the channel Engineering Materials-Tribology-Design.
-- Images were obtained from pexels.com
-- Fonts Roboto Slab and Signika are imported from https://fonts.google.com/
-- Icons for social media and links are imported from https://fontawesome.com/
+- Images were obtained from pexels.com.
+- Fonts Roboto Slab and Signika are imported from https://fonts.google.com/.
+- Icons for social media and links are imported from https://fontawesome.com/.
