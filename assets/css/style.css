@@ -351,10 +351,6 @@ footer p {
     clear: both;
 }
 
-#form-section h2 {
-    position: relative;
-}
-
 fieldset {
     border: 2px solid #1b1b1b;
     width: 670px;
@@ -384,6 +380,12 @@ input:hover,
 select:hover,
 textarea:hover {
     border: 2px solid #3300ff;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: #ff78C5;
 }
 
 label {
