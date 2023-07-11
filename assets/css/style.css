@@ -385,7 +385,7 @@ textarea:hover {
 input:focus,
 select:focus,
 textarea:focus {
-    background-color: #ff78C5;
+    background-color: #ff78c5;
 }
 
 label {
@@ -530,7 +530,6 @@ button:hover {
         grid-template-rows: 330px 330px;
         padding: 0;
     }
-
 }
 
 @media screen and (max-width:660px) {
