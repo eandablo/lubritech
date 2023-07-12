@@ -142,6 +142,10 @@ HTML5, CSS3 were checked using the W3C valitadors and no errors were found.
     - [Queries-dummy](https://validator.w3.org/nu/?doc=https%3A%2F%2Feandablo.github.io%2Ftriboplex%2Fqueries-dummy.html%3Ffull-name%3Dasd%26job-title%3Das%26company%3Dasd%26street-address%3Dasd%26city%3Dasd%26email-address%3Dasd%2540asd.com%26product-interest%3Dbiocompatibility-Food%26information%3Dasd)
 - [CSS3](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Feandablo.github.io%2Ftriboplex%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+## Known bugs
+
+No bugs were found after testing in several devices.
+
 ## Deployment
 
 The project was deployed to GitHub Pages using the following steps:
